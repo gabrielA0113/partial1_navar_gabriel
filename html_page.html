@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARTIAL 1 INDEX</title>
+    <style>
+        body { 
+            font-family: 'Times New Roman', Times, serif; 
+            text-align: center; 
+            background: #fff; 
+            color: #000; 
+            margin: 0; 
+            padding: 40px 20px; 
+        }
+        h1 { 
+            font-size: 26px; 
+            margin: 0 0 5px; 
+            letter-spacing: 1px; 
+        }
+        h2 { 
+            font-size: 18px; 
+            margin: 0 0 25px; 
+            letter-spacing: .5px; 
+        }
+       
+    
+        
+        .mario-link { 
+            display: inline-block; 
+            color: #551A8B; 
+            font-weight: bold; 
+            font-size: 15px; 
+            text-decoration: underline; 
+            margin-bottom: 30px; 
+        }
+        .section-title { 
+            font-size: 16px; 
+            font-weight: bold; 
+            margin: 25px 0 15px; 
+            letter-spacing: .5px; 
+        }
+        .btn-container { 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            gap: 12px; 
+            margin-bottom: 35px; 
+        }
+        .btn { 
+            background: #f0f0f0; 
+            border: 1px solid #767676; 
+            color: #000; 
+            padding: 6px 16px; 
+            font: bold 12px Arial, sans-serif; 
+            text-decoration: none; 
+            box-shadow: 1px 1px 2px rgba(0,0,0,.2); 
+            min-width: 220px; 
+            box-sizing: border-box; 
+        }
+        .btn:hover { 
+            background: #e0e0e0; 
+        }
+        .btn:focus-visible, .mario-link:focus-visible { 
+            outline: 2px solid #0000ff; 
+            outline-offset: 2px; 
+        }
+        .student-label { 
+            font-size: 15px; 
+            font-weight: bold; 
+            margin: 25px 0 15px; 
+        }
+        .student-name { 
+            font-size: 28px; 
+            font-weight: bold; 
+            margin-bottom: 8px; 
+            letter-spacing: 1px; 
+        }
+        .student-email { 
+            font-size: 14px; 
+            font-weight: bold; 
+            margin-bottom: 25px; 
+        }
+        .student-photo { 
+            width: 400px; 
+            max-width: 100%; 
+            height: 400px; 
+            object-fit: cover; 
+            border-radius: 50%; 
+        }
+    </style>
+</head>
+<body>
+    <h1>PARTIAL 1 INDEX</h1>
+    <h2>QUALITY TOPICS FOR SOFTWARE DESIGN</h2>
+
+    <img src="utd-logo-png_seeklogo-215021.webp" alt="UTD Logo" class="logo" onerror="this.style.display='none'">
+    <br>
+    <a href="mario.html" class="mario-link">PLAY MARIO</a>
+
+    <div class="section-title">FLOWCHART SECTION</div>
+    <div class="btn-container">
+        <a href="how_to_earn_money_drawio.html" class="btn">DIAGRAM 1 - EARN MONEY</a>
+        <a href="flujograma_servicio_mecanico.html" class="btn">DIAGRAM 2 - SERVICE</a>
+        <a href="flujograma_ingreso_financiero.html" class="btn">DIAGRAM 3 - INCOME</a>
+    </div>
+
+    <div class="section-title">USE CASE DIAGRAM SECTION</div>
+    <div class="btn-container">
+        <a href="diagrama_usercase_programador.html" class="btn">DIAGRAM 1 - PROGRAMMER ACTOR</a>
+        <a href="diagrama_usercase_cliente.html" class="btn">DIAGRAM 2 - CLIENT ACTOR</a>
+        <a href="diagrama_usercase_taller_mecanico.html" class="btn">DIAGRAM 3 - OWNER ACTOR</a>
+    </div>
+
+    <div class="student-label">STUDENT:</div>
+    <div class="student-name">Navar Diaz Gabriel de Jesus</div>
+    <div class="student-email">EMAIL: gabriel_3171250018@utd.edu.mx</div>
+    
+    <!-- Asegúrate de colocar la foto del alumno con el nombre "foto_gabriel.jpg" en la misma carpeta -->
+    <img src="foto_gabriel.jpg" alt="Foto de Gabriel Navar Diaz" class="student-photo" width="400" height="400" onerror="this.style.display='none'">
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLAY MARIO - 3 FASES</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            margin: 0; 
+            padding: 20px; 
+            background-color: #f4f4f9;
+        }
+        canvas { 
+            background: #5c94fc; 
+            border: 3px solid #000; 
+            max-width: 100%; 
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+        }
+        .stats-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 10px;
+
+
+            /* Estilo de la foto del estudiante (400x400 píxeles con recorte uniforme) */
+        .student-photo { 
+            width: 400px; 
+            height: 400px; 
+            object-fit: cover; 
+            border-radius: 50%; 
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+</head>
+<body>
+    <p><a href="index.html">&larr; Volver al índice</a></p>
+    <h2>PLAY MARIO - DESAFÍO DE 3 FASES</h2>
+    <p>
+        <b>Fase 1:</b> Recolecta 18 monedas. | 
+        <b>Fase 2:</b> Elimina a los 5 Goombas. | 
+        <b>Fase 3:</b> ¡Derrota al Jefe Final! (3 Pisotones)
+    </p>
+    
+    <canvas id="c" width="720" height="360"></canvas>
+    
+    <div class="stats-container">
+        <p id="s">Monedas: 0 / 18</p>
+        <p id="phase-status">FASE 1: Recolectar Monedas</p>
+        <p id="t">Tiempo: 90</p>
+    </div>
+
+    <script>
+        const c = document.getElementById('c'), g = c.getContext('2d');
+        
+        // Estructura de Plataformas
+        const plats = [
+            [0, 340, 720, 20],   // Suelo principal
+            [60, 280, 90, 15],
+            [190, 240, 80, 15],
+            [320, 200, 80, 15],
+            [450, 240, 80, 15],
+            [580, 280, 90, 15],
+            [100, 150, 90, 15],
+            [250, 110, 220, 15], // Plataforma central (Base del Jefe)
+            [540, 150, 90, 15]
+        ];
+
+        // 18 Monedas
+        let coinsInit = () => [
+            [20, 310], [150, 310], [360, 310], [560, 310], [700, 310],
+            [105, 250], [230, 210], [360, 170], [490, 210], [625, 250],
+            [120, 120], [160, 120], [270, 80],  [360, 80],  [450, 80],
+            [560, 120], [600, 120], [360, 250]
+        ].map(p => ({x: p[0], y: p[1], t: false}));
+
+        // Enemigos de la Fase 2
+        let enemiesInit = () => [
+            { x: 100, y: 320, w: 20, h: 20, vx: 1.5, minX: 10, maxX: 700, alive: true },
+            { x: 400, y: 320, w: 20, h: 20, vx: -2, minX: 10, maxX: 700, alive: true },
+            { x: 60, y: 260,  w: 20, h: 20, vx: 1, minX: 60, maxX: 130, alive: true },
+            { x: 580, y: 260, w: 20, h: 20, vx: -1, minX: 580, maxX: 650, alive: true },
+            { x: 540, y: 130, w: 20, h: 20, vx: 1.2, minX: 540, maxX: 610, alive: true }
+        ];
+
+        // Jefe de la Fase 3
+        let bossInit = () => ({
+            x: 320, y: 65, w: 40, h: 45, vx: 2, minX: 250, maxX: 430,
+            hp: 3, alive: true, shootTimer: 0
+        });
+
+        let p, coins, enemies, boss, bullets, score, phase, timer, timeLeft, keys = {};
+
+        function reset() { 
+            p = { x: 20, y: 290, w: 22, h: 34, vx: 0, vy: 0, on: false }; 
+            coins = coinsInit(); 
+            enemies = enemiesInit();
+            boss = bossInit();
+            bullets = [];
+            score = 0; 
+            phase = 1; 
+            timeLeft = 90;
+            
+            clearInterval(timer);
+            timer = setInterval(() => {
+                timeLeft--;
+                if (timeLeft <= 0) reset();
+            }, 1000);
+        }
+        reset();
+
+        onkeydown = e => { 
+            keys[e.code] = true; 
+            if (e.code === 'KeyR') reset(); 
+            if (['Space','ArrowUp','ArrowLeft','ArrowRight'].includes(e.code)) e.preventDefault(); 
+        };
+        onkeyup = e => keys[e.code] = false;
+
+        function step() {
+            p.vx = (keys.ArrowRight ? 4.5 : 0) - (keys.ArrowLeft ? 4.5 : 0);
+            
+            if ((keys.Space || keys.ArrowUp) && p.on) { 
+                p.vy = -12; 
+                p.on = false; 
+            }
+            
+            p.vy += 0.65; 
+            p.x += p.vx; 
+            p.y += p.vy; 
+            p.on = false;
+
+            p.x = Math.max(0, Math.min(c.width - p.w, p.x));
+
+            // Colisiones con plataformas
+            for (const [x, y, w, h] of plats) {
+                if (p.x + p.w > x && p.x < x + w && p.y + p.h >= y && p.y + p.h - p.vy <= y + 4 && p.vy >= 0) { 
+                    p.y = y - p.h; 
+                    p.vy = 0; 
+                    p.on = true; 
+                }
+            }
+
+            if (p.y > c.height) reset();
+
+            // --- FASE 1: Recolectar Monedas ---
+            for (const k of coins) {
+                if (!k.t && Math.abs(p.x + 11 - k.x) < 16 && Math.abs(p.y + 17 - k.y) < 22) { 
+                    k.t = true; 
+                    score++; 
+                }
+            }
+
+            if (score === coins.length && phase === 1) {
+                phase = 2;
+            }
+
+            // --- FASE 2: Enemigos ---
+            if (phase === 2) {
+                let activeEnemies = 0;
+                for (const en of enemies) {
+                    if (!en.alive) continue;
+                    activeEnemies++;
+
+                    en.x += en.vx;
+                    if (en.x <= en.minX || en.x + en.w >= en.maxX) en.vx *= -1;
+
+                    // Colisión
+                    if (p.x + p.w > en.x && p.x < en.x + en.w && p.y + p.h >= en.y && p.y < en.y + en.h) {
+                        if (p.vy > 0 && p.y + p.h - p.vy <= en.y + 10) {
+                            en.alive = false;
+                            p.vy = -9;
+                        } else {
+                            reset();
+                        }
+                    }
+                }
+
+                if (activeEnemies === 0) {
+                    phase = 3;
+                }
+            }
+
+            // --- FASE 3: Jefe Final ---
+            if (phase === 3 && boss.alive) {
+                // Movimiento del Jefe
+                boss.x += boss.vx;
+                if (boss.x <= boss.minX || boss.x + boss.w >= boss.maxX) boss.vx *= -1;
+
+                // Disparo de proyectiles
+                boss.shootTimer++;
+                if (boss.shootTimer % 90 === 0) {
+                    bullets.push({ x: boss.x + boss.w / 2, y: boss.y + boss.h, vy: 3 });
+                }
+
+                // Mover y verificar proyectiles
+                for (let i = bullets.length - 1; i >= 0; i--) {
+                    let b = bullets[i];
+                    b.y += b.vy;
+                    if (p.x + p.w > b.x - 5 && p.x < b.x + 5 && p.y + p.h > b.y - 5 && p.y < b.y + 5) {
+                        reset();
+                    }
+                    if (b.y > c.height) bullets.splice(i, 1);
+                }
+
+                // Colisión con el Jefe
+                if (p.x + p.w > boss.x && p.x < boss.x + boss.w && p.y + p.h >= boss.y && p.y < boss.y + boss.h) {
+                    if (p.vy > 0 && p.y + p.h - p.vy <= boss.y + 12) {
+                        boss.hp--;
+                        p.vy = -10;
+                        if (boss.hp <= 0) boss.alive = false;
+                    } else {
+                        reset();
+                    }
+                }
+
+                // Victoria Total
+                if (!boss.alive) {
+                    clearInterval(timer);
+                    document.getElementById('s').textContent = '¡HAS GANADO EL JUEGO! 🎉';
+                    document.getElementById('phase-status').textContent = '¡JEFE DERROTADO!';
+                    return;
+                }
+            }
+
+            // Actualización de Textos de Interfaz
+            document.getElementById('t').textContent = 'Tiempo: ' + timeLeft;
+            document.getElementById('s').textContent = 'Monedas: ' + score + ' / ' + coins.length;
+            
+            if (phase === 1) {
+                document.getElementById('phase-status').textContent = 'FASE 1: junta todas las monedas';
+            } else if (phase === 2) {
+                let remaining = enemies.filter(e => e.alive).length;
+                document.getElementById('phase-status').textContent = 'FASE 2: Elimina a los Goombas (' + remaining + ')';
+            } else if (phase === 3) {
+                document.getElementById('phase-status').textContent = 'FASE 3: ¡DERROTA AL JEFE! Vida: ' + boss.hp;
+            }
+        }
+
+        function draw() {
+            g.clearRect(0, 0, c.width, c.height);
+
+            // Dibujar Plataformas
+            for (const [x, y, w, h] of plats) {
+                g.fillStyle = '#8b4513';
+                g.fillRect(x, y, w, h);
+                g.fillStyle = '#2e7d32';
+                g.fillRect(x, y, w, 4);
+            }
+
+            // Dibujar Monedas
+            for (const k of coins) {
+                if (!k.t) { 
+                    g.fillStyle = '#ffd700';
+                    g.beginPath(); 
+                    g.arc(k.x, k.y, 7, 0, Math.PI * 2); 
+                    g.fill();
+                    g.strokeStyle = '#b8860b';
+                    g.stroke();
+                }
+            }
+
+            // Dibujar Enemigos (Fase 2)
+            if (phase === 2) {
+                for (const en of enemies) {
+                    if (en.alive) {
+                        g.fillStyle = '#8b0000';
+                        g.fillRect(en.x, en.y, en.w, en.h);
+                        g.fillStyle = '#ffffff';
+                        g.fillRect(en.x + 3, en.y + 4, 4, 4);
+                        g.fillRect(en.x + 13, en.y + 4, 4, 4);
+                    }
+                }
+            }
+
+            // Dibujar Jefe y Balas (Fase 3)
+            if (phase === 3 && boss.alive) {
+                g.fillStyle = '#4a154b'; // Cuerpo del Jefe
+                g.fillRect(boss.x, boss.y, boss.w, boss.h);
+                g.fillStyle = '#ff0000'; // Ojos rojos
+                g.fillRect(boss.x + 6, boss.y + 10, 8, 8);
+                g.fillRect(boss.x + 26, boss.y + 10, 8, 8);
+
+                // Proyectiles
+                g.fillStyle = '#ff4500';
+                for (const b of bullets) {
+                    g.beginPath();
+                    g.arc(b.x, b.y, 6, 0, Math.PI * 2);
+                    g.fill();
+                }
+            }
+
+            // Dibujar Jugador (Mario)
+            g.fillStyle = '#e52521'; 
+            g.fillRect(p.x, p.y, p.w, p.h / 2);
+            g.fillStyle = '#0b3d91'; 
+            g.fillRect(p.x, p.y + p.h / 2, p.w, p.h / 2);
+        }
+
+        (function loop() { 
+            step(); 
+            draw(); 
+            requestAnimationFrame(loop); 
+        })();
+    </script>
+</body>
+</html>
